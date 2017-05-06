@@ -1,0 +1,151 @@
+
+
+html {
+	margin: 0;
+	padding: 0;
+	background: #0B0C10;
+
+
+}
+
+
+body {
+	width: 940px;
+	margin: 0 auto;
+	font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;
+		overflow: hidden;
+}
+
+header,section,article,aside,footer{
+	display: block;
+}
+header{
+	float:left;
+
+	width:250px;
+	height: 90px;
+	margin-top: 5px;
+
+}
+
+nav{
+	text-align: right;
+		border: 5px solid #1F2833;
+}
+
+ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding:10px;
+	z-index: 2;
+	position: relative;
+}
+
+.icons{
+	margin-right: 0px;
+}
+
+
+ li a{
+	color: #66FCF1;
+	text-decoration: none;
+	font-size:20px;
+}
+
+li a:hover{
+	color: #fff;
+}
+
+
+
+h1{
+	font: 22pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	color: #66FCF1;
+
+	padding-left: 35px;
+	padding-top: 20px;
+	text-shadow: 1px 1px 2px #C5C6C7; 
+}
+
+h2{
+	font: 25pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	color: #66FCF1;
+	padding-left: 35px ;
+	text-shadow: 1px 1px 2px #C5C6C7; 
+
+}
+
+h3{
+	font: 18pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #66FCF1;
+	text-shadow: 1px 1px 2px #C5C6C7; 
+
+}
+
+p{
+	text-align: right;
+	padding:5px 15px 5px 70px;
+	color:#C5C6C7;
+	font-size: 18px;
+	line-height: 26px;
+
+}
+
+
+aside{
+	float: left;
+	width: 500px;
+	min-height: 400px;
+	 background-color:rgba(29,39,49,.7);
+	margin: 40px 0 20px 0;
+	 box-shadow:3px 3px #66FCF1;
+	 border: 2px solid #fff;
+}
+
+img{
+	margin:0;
+	float: left;
+	position: absolute;
+	top:-12%;
+	left: -3%;
+	z-index: 1;
+}
+
+section{
+	float: right;
+	width: 270px;
+	margin: 40px 0 20px 0;
+	height: 200px;
+	padding-left: 20px;
+	border: 2px solid #fff;
+
+	  background-color:rgba(29,39,49,.7);
+	  box-shadow:3px 3px #66FCF1;
+
+}
+
+
+footer{
+	position: absolute;
+	bottom:0;
+	left:0;
+	height: 100px;
+	width: 100%;
+	color:#200f08 ;
+	background: #1F2833;
+	margin-top: 10px;
+	margin-bottom: -13px;
+	border-top: 6px solid #66FCF1;
+	}
+
+.footer{
+	text-align: center;
+	padding-top:40px;
+}
+
